@@ -1,0 +1,10 @@
+# Pantheon's documentation on robots.txt: http://pantheon.io/docs/articles/sites/code/bots-and-indexing/
+User-agent: *
+Disallow: /
+
+User-agent: RavenCrawler
+User-agent: rogerbot
+User-agent: dotbot
+User-agent: SemrushBot
+User-agent: SemrushBot-SA
+Allow: /
