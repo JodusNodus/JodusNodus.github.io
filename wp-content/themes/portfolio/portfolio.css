@@ -1,21 +1,24 @@
 @font-face {
-  font-family: 'Aleo';
+  font-family: "Aleo";
   font-style: bold;
   font-weight: 700;
-  src: local('Aleo Bold'), local('Aleo-Bold'), url('/wp-content/themes/portfolio/assets/fonts/Aleo/Aleo-Bold.ttf');
+  src: local("Aleo Bold"), local("Aleo-Bold"),
+    url("/wp-content/themes/portfolio/assets/fonts/Aleo/Aleo-Bold.ttf");
 }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url('/wp-content/themes/portfolio/assets/fonts/Lato/Lato-Regular.ttf');
+  src: local("Lato Regular"), local("Lato-Regular"),
+    url("/wp-content/themes/portfolio/assets/fonts/Lato/Lato-Regular.ttf");
 }
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url('/wp-content/themes/portfolio/assets/fonts/Lato/Lato-Bold.ttf');
+  src: local("Lato Bold"), local("Lato-Bold"),
+    url("/wp-content/themes/portfolio/assets/fonts/Lato/Lato-Bold.ttf");
 }
 
 /**
@@ -27,10 +30,10 @@ body {
 }
 
 a {
-  color: #B79C00;
+  color: #b79c00;
 }
 a:hover {
-  color: #B79C00;
+  color: #b79c00;
 }
 
 .text-serif {
@@ -56,18 +59,13 @@ a:hover {
   height: 100%;
 }
 .polygon svg polygon {
-  fill: #BFBBA4;
+  fill: #bfbba4;
 }
 
 /**
 * Navigation
 * header.php
 */
-nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
 nav .logo {
   height: 50px;
   margin: 0 1rem;
@@ -76,6 +74,8 @@ nav ul {
   display: flex;
   flex-direction: row;
   list-style: none;
+  padding: 0;
+  width: 100%;
   margin: 0;
 }
 nav li {
@@ -131,6 +131,10 @@ nav .current-menu-item {
   right: 0px;
 }
 
+.post-box .bg-dark {
+  min-height: 200px;
+}
+
 .post-box h3 {
   font-size: 2rem;
 }
@@ -141,7 +145,6 @@ nav .current-menu-item {
   float: right;
   display: inline;
 }
-
 
 /**
 * About me
@@ -209,9 +212,6 @@ nav .current-menu-item {
   max-width: 100%;
 }
 
-
-
-
 /**
 * Sidebar
 * sidebar.php
@@ -242,7 +242,7 @@ aside li {
   text-transform: lowercase;
   font-size: 0.9rem !important;
   font-weight: bold;
-  color: #F8F9FA !important;
+  color: #f8f9fa !important;
   background-color: #343a40 !important;
 }
 
@@ -263,6 +263,6 @@ aside li {
 .widget_search input[type="submit"] {
   border-radius: 50px;
   font-weight: bold;
-  color: #F8F9FA !important;
+  color: #f8f9fa !important;
   background-color: #343a40 !important;
 }
